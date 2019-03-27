@@ -1,0 +1,215 @@
+
+  body{
+    margin: 0px;
+  }
+
+  /*---make a basic box ---*/
+  .box{
+    float: left;
+  }
+  .bannertext{
+    color:white; 
+    font-size: 35px;
+  }
+  .hvr-bounce-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fed116;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+ .reuniao{
+  font-size: 16px; 
+  height: 45px;
+  margin-top: 40px; 
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  background-color: #fed116;
+  color: black;
+  border: 0;
+  border-radius: 5px;
+}
+.reuniao:hover{
+  background-color: #fed116;
+  color: black;
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+  .reuniao:hover{
+    background-color: black;
+    color:white;
+  }
+  .texto{
+    height: 50vh;
+    background: transparent;
+  }
+  .texto2{
+    height: 25vh;
+    background: transparent;
+  }
+  .card{
+    text-align: center;
+    width: 25%;
+  }
+
+  .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    padding-bottom: 10px;
+     }
+     .nav.navbar-nav.pull-right {
+      padding-top: 0px !important;
+  }
+
+
+   .navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+ 
+  .section--blue{
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .banner
+  {
+    background-image: url(../images/bgindex.png);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .bannerborder{
+    background-image: url(../images/bgborder.png);
+    height:20vh;
+     background-repeat: no-repeat;
+  }
+  .mascara{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+   }
+
+  .banner .row
+  {
+    text-align:center;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .banner h1
+  {
+    color:white;
+    
+  }
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 11px 0px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .navbar-brand img{
+    height:50px;
+  }
+  .nav.navbar-nav.pull-right {
+    padding-top: 10px;
+  }
+
+  .nav.navbar-nav.pull-right a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fed116;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .nav.navbar-nav.pull-right a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.opaque-navbar {
+  background-color: rgba(0,0,0,0);
+  font-size: 18px;
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+  height: 75px;
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+
+}
+
+.opaque-navbar.opaque {
+  background-color: black;
+  height: 75px;
+  transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+  background-color: black;
+}
+
+
+@media (max-width: 992px) {
+  .opaque-navbar {
+    background-color: black;
+    height: 75px;
+    transition: background-color .5s ease 0s;
+  }
+  .mascara {
+    background-image: url(../images/null.png);
+  }
+
+}
+
+@media (max-width: 590px) {
+  .section--blue{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+}
+
+.segunda{
+  height: 100vh;
+}
+.servicos{
+  height: 55vh;
+  background-color: white;
+}
+.portfolio {
+  background-color: darkgray;
+  height: 45vh;
+}
+
+ 

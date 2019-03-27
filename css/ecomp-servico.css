@@ -1,0 +1,35 @@
+.txt-setor {
+	padding-left: 2%;
+}
+
+body{
+	margin-top: 90px;
+}
+
+.site-header{
+  text-align: center;
+  font-family: lato black;
+  font-size: calc(2.5em + 1vw);
+  padding-top: 30px;
+  color: #fed116;
+  margin-bottom: -25px;
+}
+
+.color{
+  background: linear-gradient(to right, #fed116 0%,#f8be0a 63%,#fed116 100%);
+  width: 100%;
+}
+
+.txt-servico{
+  font-size: 2.0em;
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: lato black;
+  color: black;
+}
+
+@media (max-width: 670px) {
+	.response{
+		text-align: center;
+	}
+}

@@ -1,0 +1,159 @@
+.card-text{ 
+    width: 100%;
+    box-sizing: border-box;
+}
+.card-title1{
+    
+    width: 100%;
+    box-sizing: border-box;
+}   
+.card{
+    width: 100%;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+
+}
+
+.cardimgqualidade{
+    width: 350px;
+    height: 138px;
+    background-image: url("../images/qualidade/qualidadePOLIJUNIOR.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cardimgpreco{
+    width: 350px;
+    height: 138px;
+    background-image: url("../images/qualidade/precoPOLIJUNIOR.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cardimginovacao{
+    width: 350px;
+    height: 110px;
+    background-image: url("../images/qualidade/inovacaoPOLIJUNIOR.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.porque{
+    min-height: 30vh;
+    background-image: url(../images/mosaico.jpg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  @media (max-width: 1570px) {
+    .cardimgqualidade{
+        width: 230px;
+    }
+    .cardimgpreco{
+        width: 230px;
+    }
+    .cardimginovacao{
+        width: 115px;
+    }
+
+     }
+
+     @media (max-width: 1140px) {
+        .cardimgqualidade{
+            width: 200px;
+            height:120px ;
+        }
+        .cardimgpreco{
+            width: 200px;
+            height:120px ;
+        }
+        .cardimginovacao{
+            width: 200px;
+            height:120px ;
+        }
+         }
+
+         @media (max-width: 980px) {
+            .cardimgqualidade{
+                width: 180px;
+                height:100px ;
+            }
+            .cardimgpreco{
+                width: 180px;
+                height:100px ;
+            }
+            .cardimginovacao{
+                width: 180px;
+                height:100px ;
+            }
+             }
+
+             @media (max-width: 900px) {
+                .porque{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                 }
+                 .card{
+                     width: 350px;
+                 }
+                 .card-text{
+                    width: 350px;
+                }
+                .card-title1{
+                    width: 350px;
+                }
+                .cardimgqualidade{
+                    width: 350px;
+                    background-position: center;
+                }
+                .cardimgpreco{
+                    width: 350px;
+                    background-position: center;
+                }
+                .cardimginovacao{
+                    width: 350px;
+                    background-position: center;
+                }
+                 }
+
+
+@media (max-width: 650px) {
+    .porque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .cardimg{
+         width: 300px !important;
+         height: 130px;
+     }
+     .card-text{
+        width: 300px;
+    }
+    .card-title1{
+        width: 300px;
+    }
+    .card{
+        width: 100%;
+    }
+  }
+
+
+  @media (max-width: 300px) {
+    .card-text{
+        width: 250px;
+    }
+    .card-title1{
+        width: 250px;
+    }
+     }
