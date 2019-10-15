@@ -22,7 +22,8 @@ Páginas
 
 # **Página de Serviços**
 
-![processo-seletivo](https://user-images.githubusercontent.com/40843169/66368557-138a8e80-e96f-11e9-84d7-5dc22c0c877e.png)
+![servico](https://user-images.githubusercontent.com/40843169/66790957-5f39bc80-eec8-11e9-9146-37982d4d01ad.png)
+
 
 # **Processo Seletivo**
 
